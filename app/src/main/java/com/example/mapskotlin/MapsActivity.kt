@@ -37,6 +37,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         // Add a marker in Salamanca and move camera
         val salamanca = LatLng(40.9654481717042, -5.6652244925)
         mMap.addMarker(MarkerOptions().position(salamanca).title("Salamanca"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(salamanca, 12f))
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(salamanca, 18f))
     }
 }
